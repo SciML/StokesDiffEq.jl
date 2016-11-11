@@ -32,25 +32,6 @@ Returns `gridSize`.
 """
 size(mesh::FDMMesh) = mesh.gridSize
 
-"""
-`StokesProblem`
-Defines the solution to a stationary Stokes problem:
-```math
-```
-### Constructors
-`StokesProblem(f₁,f₂,g,uanalytic,vanalytic,panalytic)`
-`StokesProblem(f₁,f₂,g,ugD,vgD)`
-### Fields
-* `f₁::Function`
-* `f₂::Function`
-* `g::Function`
-* `ugD::Function`
-* `vgD::Function`
-* `uanalytic::Function`
-* `vanalytic::Function`
-* `panalytic::Function`
-* `trueknown::Bool`
-"""
 type StokesProblem
   f₁#::Function
   f₂#::Function
