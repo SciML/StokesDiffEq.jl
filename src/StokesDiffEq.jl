@@ -9,7 +9,7 @@ using Parameters, VectorizedRoutines.Matlab
 
 macro def(name, definition)
     quote
-        macro $name()
+        macro $(esc(name))()
             esc($(Expr(:quote, definition)))
         end
     end
