@@ -7,15 +7,6 @@ import DiffEqBase: solve
 import Base: size
 using Parameters, VectorizedRoutines.Matlab
 
-macro def(name, definition)
-    quote
-        macro $(esc(name))()
-            esc($(Expr(:quote, definition)))
-        end
-    end
-end
-
-
 
 include("problems.jl")
 include("solutions.jl")
