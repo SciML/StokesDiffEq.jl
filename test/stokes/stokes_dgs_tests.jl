@@ -1,4 +1,4 @@
-using StokesDiffEq, Parameters, Plots
+using StokesDiffEq, Parameters
 Δx = 1//2^3 # Make this much smaller (1^2-5) for your own tests
 mesh = FDMMesh(Δx,mins=[-1;-1],maxs=[1;1])
 prob = prob_stokes_dirichletzero

@@ -1,4 +1,4 @@
-using StokesDiffEq, Plots#, LaTeXStrings,
+using StokesDiffEq
 
 ## Change plot commands to GR
 
