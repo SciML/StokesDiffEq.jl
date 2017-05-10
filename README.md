@@ -6,6 +6,9 @@
 [![Coverage Status](https://coveralls.io/repos/github/JuliaDiffEq/StokesDiffEq/badge.svg)](https://coveralls.io/github/JuliaDiffEq/StokesDiffEq)
 [![codecov.io](http://codecov.io/github/ChrisRackauckas/StokesDiffEq.jl/coverage.svg?branch=master)](http://codecov.io/github/ChrisRackauckas/StokesDiffEq.jl?branch=master)
 
+[![StokesDiffEq](http://pkg.julialang.org/badges/StokesDiffEq_0.5.svg)](http://pkg.julialang.org/?pkg=StokesDiffEq)
+[![StokesDiffEq](http://pkg.julialang.org/badges/StokesDiffEq_0.6.svg)](http://pkg.julialang.org/?pkg=StokesDiffEq)
+
 StokesDiffEq.jl is a component package in the DifferentialEquations ecosystem. It holds the
 solvers for Stokes-type PDEs. Users interested in using this
 functionality should check out [DifferentialEquations.jl](https://github.com/JuliaDiffEq/DifferentialEquations.jl).
