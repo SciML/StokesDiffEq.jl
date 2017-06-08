@@ -2,7 +2,8 @@ __precompile__()
 
 module StokesDiffEq
 
-using DiffEqBase
+using Reexport
+@reexport using DiffEqBase
 import DiffEqBase: solve
 import Base: size
 using Parameters, VectorizedRoutines.Matlab
